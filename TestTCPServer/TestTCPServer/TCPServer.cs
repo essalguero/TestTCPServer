@@ -22,6 +22,8 @@ namespace TestTCPServer
 
         public delegate void TcpServerEventDlg(object sender, TcpServerEventDlg e);
 
+        
+
 
 
         private AsyncCallback ConnectionReady;
@@ -123,6 +125,8 @@ namespace TestTCPServer
                 {
                     
                     //loop to avid the finalization of the server
+
+                    //if ()
 
                 }
             }
