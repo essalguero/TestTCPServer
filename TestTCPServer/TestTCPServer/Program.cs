@@ -202,8 +202,8 @@ Protocol Example (Manual BTLE)
                         {
                             if ("on".Equals(subscriptionType.ToLower()))
                             {
-                                subscriptions[position] = true;
                                 Send(handler, "R device_subscribe " + device.ToLower() + " OK\r\n");
+                                subscriptions[position] = true;
                             }
                             else if ("off".Equals(subscriptionType.ToLower()))
                             {
